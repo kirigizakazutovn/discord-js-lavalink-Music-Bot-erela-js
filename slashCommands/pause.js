@@ -11,7 +11,7 @@ const {
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `pause`,
-  description: `Pauses the Current Song`,
+  description: `Tạm dừng bài hát đang phát`,
   parameters: {
     "type": "music",
     "activeplayer": true,
@@ -42,7 +42,7 @@ const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
       //return success message
       interaction.reply({embeds: [new MessageEmbed()
         .setColor(es.color)
-        .setTitle(`${emoji.msg.pause} Paused the Track!`)
+        .setTitle(`${emoji.msg.pause} Đã dừng!`)
       ]})
     } catch (e) {
       console.log(String(e.stack).dim.bgRed)
