@@ -15,8 +15,8 @@ module.exports = {
     
     
     try {
-      let button_public_invite = new MessageButton().setStyle('LINK').setLabel('Invite Public Bot').setURL("https://discord.com/api/oauth2/authorize?client_id=734513783338434591&permissions=8&scope=bot%20applications.commands")
-      let button_support_dc = new MessageButton().setStyle('LINK').setLabel('Support Server').setURL("https://discord.gg/milrato")
+      let button_public_invite = new MessageButton().setStyle('LINK').setLabel('Nhận mã nguồn mở').setURL("https://github.com/kirigizakazutov/discord-js-lavalink-Music-Bot-erela-js")
+      let button_support_dc = new MessageButton().setStyle('LINK').setLabel('Support Server').setURL("https://dsc.gg/rbdiscordh")
       let button_invite = new MessageButton().setStyle('LINK').setLabel('Invite this Bot').setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`)
       //array of all buttons
       const allbuttons = [new MessageActionRow().addComponents([button_public_invite, button_support_dc, button_invite])]
@@ -25,8 +25,8 @@ module.exports = {
           .setColor(ee.color)
           .setTitle(client.la[ls].cmds.info.support.title)
           .setDescription(eval(client.la[ls]["cmds"]["info"]["support"]["variable1"]))
-          .setFooter(client.user.username  + ' | powered by milrato.dev', 'https://imgur.com/jPItIw0.gif')
-          .setURL("https://discord.com/api/oauth2/authorize?client_id=784364932149280778&permissions=8&scope=bot%20applications.commands")],
+          .setFooter(client.user.username  + ' | Tạo ra bởi Team A5 - RBDS Dev', 'https://imgur.com/jPItIw0.gif')
+          .setURL("https://discord.com/api/oauth2/authorize?client_id={client.user.id}&permissions=8&scope=bot%20applications.commands")],
         components: allbuttons
       });
     } catch (e) {
