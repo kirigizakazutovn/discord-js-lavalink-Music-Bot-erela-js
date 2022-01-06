@@ -7,7 +7,7 @@ const emoji = require(`${process.cwd()}/botconfig/emojis.json`);
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `loop`,
-  description: `Repeats the current Song/Queue`,
+  description: `Lặp lại bài hát/hàng chờ`,
   parameters: {
     "type": "music",
     "activeplayer": true,
