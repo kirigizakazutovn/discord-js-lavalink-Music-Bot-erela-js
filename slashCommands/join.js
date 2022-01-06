@@ -9,7 +9,7 @@ const playermanager = require(`${process.cwd()}/handlers/playermanager`);
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `join`,
-  description: `Summons the Bot in your Channel`,
+  description: `Mời bot vào kênh thoại/sân khấu của bạn`,
   parameters: {
     "type": "radio",
     "activeplayer": false,
