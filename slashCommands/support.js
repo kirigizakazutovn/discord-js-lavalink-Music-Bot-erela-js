@@ -7,7 +7,7 @@ const emoji = require(`${process.cwd()}/botconfig/emojis.json`);
 const { MessageButton } = require('discord.js')
 module.exports = {
   name: "support",
-  description: "Sends you the Support Server Link",
+  description: "Gửi link server hỗ trợ",
   run: async (client, interaction, cmduser, es, ls, prefix, player, message) => {
     //things u can directly access in an interaction!
     const { member, channelId, guildId, applicationId, commandName, deferred, replied, ephemeral, options, id, createdTimestamp } = interaction; 
