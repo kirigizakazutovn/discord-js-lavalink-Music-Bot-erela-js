@@ -9,7 +9,7 @@ const playermanager = require(`${process.cwd()}/handlers/playermanager`);
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
 module.exports = {
   name: `autoplay`,
-  description: `Toggles Autoplay on/off`,
+  description: `Kích hoạt chế độ tự động phát (tắt/bật)`,
   parameters: {
     "type": "music",
     "activeplayer": true,
