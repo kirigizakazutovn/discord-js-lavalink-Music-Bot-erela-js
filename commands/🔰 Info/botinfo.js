@@ -16,7 +16,7 @@ module.exports = {
   name: "botinfo",
   aliases: ["info", "about", "stats"],
   category: "🔰 Info",
-  description: "Sends detailed info about the client",
+  description: "Thông tin về bot",
   usage: "botinfo",
   type: "bot",
   run: async (client, message, args, cmduser, text, prefix, player, es, ls) => {
