@@ -1,21 +1,21 @@
 {
    "token": "Bot Token",
-   "prefix": "?",
+   "prefix": "r!",
    "ownerIDS": [
-      "442355791412854784"
+      "784729115680964618"
    ],
    "status": {
-      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",
-      "text2": "By: milrato.dev",
+      "text": "{prefix}help | Đã chơi {songsplayed} bài hát ở {guildcount} máy chủ | Hỗ trợ : dsc.gg/rbdiscordh",
+      "text2": "BH Media là đồ bán nước!",
       "type": "PLAYING",
-      "url": "https://twitch.tv/#"
+      "url": "https://vtv.vn"
    },
    "clientsettings": {
       "nodes": [
          {
-            "host": "localhost",
+            "host": "lavalink.eu",
             "port": 2333,
-            "password": "youshallnotpass"
+            "password": "Raccon"
          }
       ]
    },
