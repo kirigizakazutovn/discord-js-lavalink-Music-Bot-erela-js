@@ -11,7 +11,7 @@ const {
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `forward`,
-  description: `Seeks a specific amount of Seconds forwards`,
+  description: `Chuyển tới thời gian cụ thể`,
   parameters: {
     "type": "music",
     "activeplayer": true,
