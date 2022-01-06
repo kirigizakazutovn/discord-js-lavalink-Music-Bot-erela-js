@@ -10,7 +10,7 @@ module.exports = {
   category: "🔰 Info",
   aliases: ["add"],
   usage: "invite",
-  description: "Gives you an Invite link for this Bot",
+  description: "Mời tôi vào máy chủ",
   options: [ 
 		//{"Integer": { name: "ping_amount", description: "How many times do you want to ping?", required: true }}, //to use in the code: interacton.getInteger("ping_amount")
 		//{"String": { name: "ping_amount", description: "How many times do you want to ping?", required: true }}, //to use in the code: interacton.getString("ping_amount")
