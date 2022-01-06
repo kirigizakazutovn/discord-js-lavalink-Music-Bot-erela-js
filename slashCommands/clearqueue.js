@@ -7,7 +7,7 @@ const emoji = require(`${process.cwd()}/botconfig/emojis.json`);
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `clearqueue`,
-  description: `Cleares the Queue`,
+  description: `Làm sạch hàng chờ`,
   cooldown: 10,
   parameters: {
     "type": "music",
