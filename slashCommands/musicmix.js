@@ -10,7 +10,7 @@ const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `musicmix`,
   category: `🎶 Music`,
-  description: `Plays an awesome Music Mix`,
+  description: `Phát một bài nhạc mix`,
   usage: `playmusicmix`,
   parameters: {
     "type": "music",
