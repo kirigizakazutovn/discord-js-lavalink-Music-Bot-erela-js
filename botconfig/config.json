@@ -5,17 +5,17 @@
       "442355791412854784"
    ],
    "status": {
-      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",
-      "text2": "By: milrato.dev",
+      "text": "{prefix}help | Đã phát {songsplayed} trong {guildcount} máy chủ | Support: dsc.gg/rbdiscordh",
+      "text2": "repl.it/@kirigizakazutov",
       "type": "PLAYING",
-      "url": "https://twitch.tv/#"
+      "url": "https://ptb.discordapp.com/app"
    },
    "clientsettings": {
       "nodes": [
          {
-            "host": "localhost",
+            "host": "lavalink.eu",
             "port": 2333,
-            "password": "youshallnotpass"
+            "password": "Raccon"
          }
       ]
    },
