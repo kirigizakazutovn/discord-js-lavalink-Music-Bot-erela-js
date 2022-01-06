@@ -9,7 +9,7 @@ const playermanager = require(`${process.cwd()}/handlers/playermanager`);
 const { handlemsg } = require(`${process.cwd()}/handlers/functions`);
     module.exports = {
   name: `play`,
-  description: `Plays a Song/Playlist from Youtube`,
+  description: `Phát một bài nhạc/playlist trên YouTube/Spotify`,
   parameters: {
     "type": "music",
     "activeplayer": false,
